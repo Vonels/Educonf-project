@@ -1,23 +1,35 @@
 @media screen {
-  .header-logo {
-    display: flex;
-  }
   .header-page {
     display: none;
   }
-
-  .header-logo {
-    display: flex;
+  .header-button {
+    display: none;
   }
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-button-burger {
+  background-color: transparent;
+  border: none;
 }
 
 @media only screen and (min-width: 768px) {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
   .header-page-nav {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 24px;
   }
   .header-container {
     display: flex;
@@ -29,5 +41,20 @@
   }
   .header-page {
     display: flex;
+    gap: 32px;
+  }
+  .header-button {
+    display: block;
+    border: 1px solid var(--color-governor-bay);
+    border-radius: 6px;
+    padding: 8px 20px;
+    width: 192px;
+    height: 40px;
+    background: var(--color-governor-bay);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-white);
   }
 }
