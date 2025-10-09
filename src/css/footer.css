@@ -1,9 +1,4 @@
 @media screen {
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-
   .container-foot {
     display: flex;
     /* min-width: 375px; */
