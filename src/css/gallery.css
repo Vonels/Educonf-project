@@ -9,6 +9,7 @@
   .gallery-title {
     margin-bottom: 40px;
   }
+
   .gallery-heading {
     font-family: 'Teachers', sans-serif;
     font-weight: 700;
@@ -65,4 +66,27 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .gallery {
+    padding-top: 92px;
+    padding-bottom: 92px;
+  }
+  .gallery-img {
+    width: 640px;
+    height: 640px;
+    margin-right: 32px;
+  }
+  .gallery-item {
+    width: 304px;
+    height: 304px;
+  }
+  .gallery-box {
+    max-width: 640px;
+    gap: 32px;
+  }
+  .gallery-title {
+    max-width: 768px;
+  }
+  .gallery-heading {
+    font-size: 48px;
+  }
 }
