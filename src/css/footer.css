@@ -1,5 +1,10 @@
 @media screen {
-  .container {
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .container-foot {
     display: flex;
     /* min-width: 375px; */
     padding-left: 16px;
@@ -18,8 +23,7 @@
 
   .footer-class {
     padding: 48px 20px;
-    /* min-width: 375px;
-    min-height: 633px; */
+
     background-color: #03030a;
   }
 
@@ -58,8 +62,6 @@
     color: white;
     display: flex;
     justify-content: center;
-    /* margin-left: auto;
-    margin-right: auto; */
   }
 
   .foter-link:hover {
@@ -89,7 +91,6 @@
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    /* max-width: 700px; */
   }
 
   .commit-box {
