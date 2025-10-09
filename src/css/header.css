@@ -1,0 +1,20 @@
+@media screen {
+  .header-logo {
+    display: flex;
+  }
+  .header-page {
+    display: flex;
+  }
+  .header-page-nav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1440px) {
+  .header-page-nav {
+    display: flex;
+  }
+}
