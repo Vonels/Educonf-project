@@ -49,6 +49,8 @@
   .gallery-item-img {
     width: 158px;
     height: 158px;
+    /* max-width: 100%;
+    height: auto; */
   }
 
   .gallery-img {
@@ -70,6 +72,9 @@
     padding-top: 92px;
     padding-bottom: 92px;
   }
+  .gallery-title {
+    align-items: center;
+  }
   .gallery-img {
     width: 640px;
     height: 640px;
@@ -78,6 +83,8 @@
   .gallery-item-img {
     width: 304px;
     height: 304px;
+    /* max-width: 100%;
+    height: auto; */
   }
   .gallery-box {
     max-width: 640px;
