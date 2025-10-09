@@ -1,0 +1,106 @@
+/* Styles for Mobile devices */
+@media only screen and (min-width: 375px) {
+    .speakers-section {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .speakers-section-title {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: #1c1c22;
+    }
+
+    .speakers-list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+
+    .speakers-item {
+        max-width: 335px;
+    }
+
+    .speakers-img {
+        width: 335px;
+        height: 335px;
+    }
+
+    .speakers-title {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .speakers-name {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.5;
+        color: var(--color-scheme-1-text);
+    }
+
+    .speakers-job-title {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.5;
+        color: var(--color-scheme-1-text);
+    }
+
+    .speakers-text {
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--color-scheme-1-text);
+        margin-bottom: 16px;
+    }
+
+    .speakers-social-media-list {
+        display: flex;
+        gap: 14px;
+    }
+
+    .speakers-social-media-link {
+        display: inline-flex;
+        fill: #1c1c22;
+    }
+}
+
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    .speakers-item {
+        max-width: 336px;
+    }
+
+    .speakers-img {
+        width: 336px;
+        height: 336px;
+    }
+
+    .speakers-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 32px;
+        row-gap: 64px;
+    }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1200px) {
+    .speakers-section-title {
+        font-size: 48px;
+    }
+
+    .speakers-item {
+        max-width: 304px;
+    }
+
+    .speakers-img {
+        width: 304px;
+        height: 304px;
+    }
+}
