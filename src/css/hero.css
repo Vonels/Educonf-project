@@ -1,0 +1,124 @@
+@media screen {
+
+    /* ========================HERO====================== */
+
+    .hero {
+        padding: 64px 0;
+    }
+
+    .hero-title {
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.2;
+        letter-spacing: -0.01em;
+        margin-bottom: 24px;
+    }
+
+    .hero-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 32px;
+    }
+
+    .hero-button {
+        border: 1px solid #3444c5;
+        background-color: #3444c5;
+        border-radius: 6px;
+        padding: 10px 24px;
+        width: 100%;
+        margin: 0 auto;
+        font-weight: 500;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 40px;
+    }
+
+    .hero-button:hover,
+    .hero-button:focus {
+        border: 1px solid #3444c5;
+        background-color: transparent;
+        color: var(--color-scheme-1-text);
+    }
+
+    .hero-button:active {
+        border: 1px solid #3444c5;
+        background-color: var(--color-governor-bay-lighter);
+        color: var(--color-scheme-1-text);
+    }
+
+}
+
+/* =======================/HERO====================== */
+
+
+@media screen and (min-width: 768px) {
+    
+
+    /* ========================HERO====================== */
+
+.hero {
+    padding: 64px 32px;
+}
+
+.hero-text {
+    font-size: 16px;
+}
+
+.hero-button {
+    width: 193px;
+    height: 44px;
+    display: inline;
+}
+
+.hero-image {
+    width: 704px;
+    height: 396px;
+}
+
+
+
+    /* =======================/HERO====================== */
+}
+
+@media screen and (min-width: 1440px) {
+    
+
+    /* ========================HERO====================== */
+.hero {
+    padding: 92px 64px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+
+}
+
+.style-button {
+    display: flex;
+}
+
+.hero-button {
+    margin-top: 5px;
+    width: 193px;
+    height: 44px;
+}
+
+.hero-image {
+    width: 1312px;
+    height: 738px;
+}
+
+    /* =======================/HERO====================== */
+}
