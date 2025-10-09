@@ -3,10 +3,11 @@
     display: flex;
   }
   .header-page {
-    display: flex;
-  }
-  .header-page-nav {
     display: none;
+  }
+
+  .header-logo {
+    display: flex;
   }
 }
 
@@ -15,6 +16,18 @@
 
 @media only screen and (min-width: 1440px) {
   .header-page-nav {
+    display: flex;
+    align-items: center;
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-button-burger {
+    display: none;
+  }
+  .header-page {
     display: flex;
   }
 }
