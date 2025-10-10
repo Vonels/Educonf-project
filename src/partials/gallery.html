@@ -1,18 +1,63 @@
 <section class="gallery">
-  <div class="container">
+  <div class="container gallery-container">
     <div class="gallery-title">
       <h2 class="gallery-heading">Highlights from previous conferences</h2>
       <p class="gallery-text">Feel the energy from previous events</p>
     </div>
     <div class="gallery-content">
-      <img
-        class="gallery-img"
-        srcset="../img/sectiongroup/manspeak@2x.jpg 2x"
-        src="../img/sectiongroup/manspeak.jpg"
-        alt="speaker"
-        width="335"
-        height="335"
-      />
+      <picture>
+        <!-- Desktop -->
+        <source
+          srcset="1x, 2x"
+          media="(min-width: 1440px)"
+          type="image/webp"
+          width="640"
+          height="640"
+        />
+        <source
+          srcset="
+            ../img/sectiongroup/manspeak.jpg    1x,
+            ../img/sectiongroup/manspeak@2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+          width="640"
+          height="640"
+        />
+        <!-- Tablet -->
+        <source
+          srcset="1x, 2x"
+          media="(min-width: 768px)"
+          type="image/webp"
+          width="340"
+          height="340"
+        />
+        <source
+          srcset="
+            ../img/sectiongroup/manspeak.jpg    1x,
+            ../img/sectiongroup/manspeak@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+          width="340"
+          height="340"
+        />
+        <!-- Mobile -->
+        <source
+          srcset="1x, 2x"
+          media="(max-width: 767px)"
+          type="image/webp"
+          width="335"
+          height="335"
+        />
+
+        <img
+          class="gallery-img"
+          srcset="../img/sectiongroup/manspeak@2x.jpg 2x"
+          src="../img/sectiongroup/manspeak.jpg"
+          alt="speaker"
+          width="335"
+          height="335"
+        />
+      </picture>
       <ul class="gallery-box">
         <li class="gallery-item">
           <img
