@@ -1,75 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EduConf</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+<section class="about-section container">
+  <svg class="about-icon" width="48" height="48">
+    <use href="../img/sprite.svg#verified"></use>
+  </svg>
+
+  <div class="about-wrapper">
+    <div class="about-text">
+      <h2 class="about-title">
+        Empowering educators and students through innovative educational trends
+        and insights.
+      </h2>
+      <p class="about-description">
+        The Educational Conference 2025 aims to foster collaboration and
+        knowledge sharing among educators, students, and researchers. Attendees
+        will gain valuable insights into modern teaching methodologies and
+        educational technologies that can enhance their practices.
+      </p>
+    </div>
+
+    <img
+      class="about-image"
+      srcset="../img/imagesgroup/mangirl@2x.jpg 2x"
+      src="../img/imagesgroup/mangirl.jpg"
+      alt="Two smiling educators engaged in an animated discussion, reviewing information on a tablet and handwritten notes."
+      width="335"
+      height="357"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Teachers:ital,wght@0,700;1,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-
-  <body>
-    <section class="about-section">
-      <div class="about-wrapper container">
-        <svg class="about-icon" width="48" height="48">
-          <use href="../img/sprite.svg#verified"></use>
-        </svg>
-
-        <h2 class="about-title">
-          Empowering educators and students through innovative educational
-          trends and insights.
-        </h2>
-        <p class="about-description">
-          The Educational Conference 2025 aims to foster collaboration and
-          knowledge sharing among educators, students, and researchers.
-          Attendees will gain valuable insights into modern teaching
-          methodologies and educational technologies that can enhance their
-          practices.
-        </p>
-
-        <picture>
-          <source
-            srcset="
-              ../img/imagesgroup/mangirl.jpg    1x,
-              ../img/imagesgroup/mangirl@2x.jpg 2x
-            "
-            media="(min-width:1440px)"
-            width="640"
-            height="683"
-          />
-          <source
-            srcset="
-              ../img/imagesgroup/mangirl.jpg    1x,
-              ../img/imagesgroup/mangirl@2x.jpg 2x
-            "
-            media="(min-width:768px)"
-            width="340"
-            height="363"
-          />
-
-          <img
-            class="about-image"
-            srcset="../img/imagesgroup/mangirl@2x.jpg 2x"
-            src="../img/imagesgroup/mangirl.jpg"
-            alt="Two smiling educators engaged in an animated discussion, reviewing information on a tablet and handwritten notes."
-            width="335"
-            height="357"
-          />
-        </picture>
-      </div>
-    </section>
-  </body>
-</html>
+  </div>
+</section>
