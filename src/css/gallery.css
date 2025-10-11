@@ -5,11 +5,9 @@
     background: #fff;
     margin: 0 auto;
   }
-
   .gallery-title {
     margin-bottom: 40px;
   }
-
   .gallery-heading {
     font-family: 'Teachers', sans-serif;
     font-weight: 700;
@@ -28,11 +26,7 @@
     text-align: center;
     color: #03030a;
   }
-
   .gallery-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
     margin-bottom: 16px;
   }
   .gallery-box {
@@ -49,15 +43,7 @@
   .gallery-content {
     display: flex;
   }
-  .gallery-item-img {
-    max-width: 100%;
-    height: auto;
-  }
-
   .gallery-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
     margin-top: 0;
     margin-right: 24px;
     margin-bottom: 0;
@@ -74,19 +60,13 @@
     padding-top: 92px;
     padding-bottom: 92px;
   }
-
-  .gallery-container {
-    text-align: center;
+  .gallery-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .gallery-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
     margin-right: 32px;
-  }
-  .gallery-item-img {
-    max-width: 100%;
-    height: auto;
   }
   .gallery-box {
     max-width: 640px;
