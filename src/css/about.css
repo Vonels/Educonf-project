@@ -1,0 +1,112 @@
+/* Styles for Mobile devices */
+
+@media screen {
+  .container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+  .about-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .about-icon {
+    display: inline-block;
+  }
+
+  .about-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .about-title {
+    font-family: 'Teachers', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #03030a;
+  }
+
+  .about-description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #03030a;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .about-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .about-wrapper {
+    flex-direction: row;
+  }
+  .about-image {
+    width: 100%;
+    height: 363px;
+    max-width: 340px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .about-section {
+    display: block;
+    padding-top: 92px;
+    padding-bottom: 92px;
+  }
+
+  .about-icon {
+    position: relative;
+    top: 150px;
+    z-index: 999;
+  }
+
+  .about-title {
+    font-size: 48px;
+  }
+
+  .about-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .about-text {
+    max-width: 640px;
+  }
+
+  .about-image {
+    width: 100%;
+    height: 683px;
+    max-width: 640px;
+  }
+}
