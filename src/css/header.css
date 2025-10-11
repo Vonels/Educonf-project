@@ -5,6 +5,9 @@
   .header-button {
     display: none;
   }
+  .header-logo {
+    max-height: 71px;
+  }
 
   .header-container {
     display: flex;
