@@ -30,9 +30,6 @@
   }
 
   .gallery-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
     margin-bottom: 16px;
   }
   .gallery-box {
@@ -42,6 +39,10 @@
     flex-wrap: wrap;
     gap: 16px;
     padding: 0;
+  }
+  .gallery-item {
+    max-width: 159px;
+    height: auto;
   }
 }
 
@@ -76,7 +77,11 @@
   }
 
   .gallery-title {
-    margin: 0 auto;
+    max-width: 768px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
   }
   .gallery-img {
     display: block;
@@ -91,9 +96,6 @@
   .gallery-box {
     max-width: 640px;
     gap: 32px;
-  }
-  .gallery-title {
-    max-width: 768px;
   }
   .gallery-heading {
     font-size: 48px;
