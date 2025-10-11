@@ -60,11 +60,13 @@
     padding-top: 92px;
     padding-bottom: 92px;
   }
+
   .gallery-title {
     display: flex;
     align-items: center;
     justify-content: center;
   }
+
   .gallery-img {
     margin-right: 32px;
   }
