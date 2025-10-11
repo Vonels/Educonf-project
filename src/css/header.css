@@ -5,17 +5,17 @@
   .header-button {
     display: none;
   }
-}
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.header-button-burger {
-  background-color: transparent;
-  border: none;
-}
 
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-button-burger {
+    background-color: transparent;
+    border: none;
+  }
+}
 @media only screen and (min-width: 768px) {
   .header-container {
     display: flex;
