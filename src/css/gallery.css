@@ -49,8 +49,8 @@
   .gallery-content {
     display: flex;
   }
-  .gallery-item-img {
-    max-width: 100%;
+  .gallery-item {
+    max-width: 158px;
     height: auto;
   }
 
@@ -76,7 +76,6 @@
   }
 
   .gallery-title {
-    text-align: center;
     margin: 0 auto;
   }
   .gallery-img {
@@ -85,8 +84,8 @@
     height: auto;
     margin-right: 32px;
   }
-  .gallery-item-img {
-    max-width: 100%;
+  .gallery-item {
+    max-width: 304px;
     height: auto;
   }
   .gallery-box {
