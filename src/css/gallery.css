@@ -9,6 +9,7 @@
   .gallery-title {
     margin-bottom: 40px;
   }
+
   .gallery-heading {
     font-family: 'Teachers', sans-serif;
     font-weight: 700;
@@ -45,9 +46,11 @@
   .gallery-content {
     display: flex;
   }
-  .gallery-item {
+  .gallery-item-img {
     width: 158px;
     height: 158px;
+    /* max-width: 100%;
+    height: auto; */
   }
 
   .gallery-img {
@@ -65,4 +68,32 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .gallery {
+    padding-top: 92px;
+    padding-bottom: 92px;
+  }
+  .gallery-title {
+    align-items: center;
+  }
+  .gallery-img {
+    width: 640px;
+    height: 640px;
+    margin-right: 32px;
+  }
+  .gallery-item-img {
+    width: 304px;
+    height: 304px;
+    /* max-width: 100%;
+    height: auto; */
+  }
+  .gallery-box {
+    max-width: 640px;
+    gap: 32px;
+  }
+  .gallery-title {
+    max-width: 768px;
+  }
+  .gallery-heading {
+    font-size: 48px;
+  }
 }
