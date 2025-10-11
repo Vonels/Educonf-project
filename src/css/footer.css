@@ -46,7 +46,7 @@
   }
 
   .commit-box {
-    width: 320px;
+    max-width: 375px;
     border-top: 2px solid;
     color: white;
     display: flex;
@@ -69,9 +69,18 @@
     color: #3444c5;
     text-decoration: underline;
   }
+
+  .footer-link:disabled {
+    color: #03030a;
+    opacity: 0.3;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .container-foot {
+    margin: 0;
+  }
+
   .footer-list {
     display: flex;
     align-items: center;
@@ -80,7 +89,7 @@
   }
 
   .commit-box {
-    width: 768px;
+    min-width: 768px;
   }
 
   .footer-p {
