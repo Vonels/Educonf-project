@@ -52,16 +52,13 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-<<<<<<< HEAD
-  .about-section {
+  ` .about-section {
     flex-direction: row;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 24px;
   }
-=======
 
->>>>>>> 938bcbd53a6c24460a933cc10d01b533d6f21820
   .about-wrapper {
     flex-direction: row;
     align-items: center;
