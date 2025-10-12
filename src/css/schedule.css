@@ -122,8 +122,6 @@
     display: flex;
     text-align: end;
   }
-  .schedule-proba {
-  }
 }
 @media only screen and (min-width: 1440px) {
   .schedule-list-punkt {

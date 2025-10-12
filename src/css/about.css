@@ -61,7 +61,6 @@
     flex-wrap: wrap;
     gap: 24px;
   }
-
   .about-wrapper {
     flex-direction: row;
   }
@@ -84,12 +83,6 @@
     padding-top: 92px;
     padding-bottom: 92px;
     gap: 32px;
-  }
-
-  .about-icon {
-    position: relative;
-    top: 150px;
-    z-index: 999;
   }
 
   .about-title {
