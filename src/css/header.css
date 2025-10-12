@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
   }
-  .header-button-burger {
+  .header-button-menu {
     background-color: transparent;
     border: none;
     height: 48px;
@@ -24,7 +24,7 @@
     height: 100%;
     z-index: 9999999;
     background-color: #ffffff;
-    transform: translateX(100%);
+    transform: translateX(200%);
     transition: transform 250ms linear;
   }
 
@@ -33,8 +33,10 @@
   }
 
   .menu-drive-mobile {
-    position: relative;
-    height: 100%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   .header-burger-list {
     padding: 16px 0;
@@ -108,7 +110,7 @@
     justify-content: space-between;
     align-items: center;
   }
-  .header-button-burger {
+  .header-button-menu {
     display: none;
   }
   .header-page {
