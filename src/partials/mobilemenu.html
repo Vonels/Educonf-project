@@ -6,15 +6,35 @@
       </svg>
     </button>
     <div class="register-modal-title-div">
-      <img
-        srcset="
-          ../img/imagesgroup/smilegirlmobile.jpg 1x,
-          ../img/imagesgroup/smilegirlmobile.jpg 2x
-        "
-        src="../img/imagesgroup/smilegirlmobile.jpg"
-        alt=""
-        class="register-modal-img"
-      />
+      <picture>
+        <source
+          srcset="
+            ../img/imagesgroup/smilegirl.jpg    1x,
+            ../img/imagesgroup/smilegirl@2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+          width="640"
+          height="324"
+        />
+        <source
+          srcset="
+            ../img/imagesgroup/smilegirl.jpg    1x,
+            ../img/imagesgroup/smilegirl@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+          width="576"
+          height="324"
+        />
+        <img
+          srcset="
+            ../img/sectiongroup/smilegirlmobile.jpg    1x,
+            ../img/sectiongroup/smilegirlmobile@2x.jpg 2x
+          "
+          src="../img/imagesgroup/smilegirlmobile.jpg"
+          alt=""
+          class="register-modal-img"
+        />
+      </picture>
       <h2 class="register-modal-title">Success! You're registered.</h2>
       <p class="register-modal-paragraph">
         We've sent a confirmation to your email address. Please check your inbox
