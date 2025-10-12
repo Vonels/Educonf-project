@@ -10,9 +10,6 @@
   .about-section {
     padding-top: 64px;
     padding-bottom: 64px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
   }
 
   .about-icon {
@@ -55,15 +52,10 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-  .about-section {
-    flex-direction: row;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 24px;
-  }
 
   .about-wrapper {
     flex-direction: row;
+    align-items: center;
   }
 
   .about-image {
@@ -80,16 +72,9 @@
     padding-right: 64px;
   }
   .about-section {
-    display: block;
     padding-top: 92px;
     padding-bottom: 92px;
     gap: 32px;
-  }
-
-  .about-icon {
-    position: relative;
-    top: 150px;
-    z-index: 999;
   }
 
   .about-title {
