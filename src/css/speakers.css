@@ -86,6 +86,11 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1200px) {
+    .speakers-section {
+        padding-top: 92px;
+        padding-bottom: 92px;
+    }
+
     .speakers-section-title {
         font-size: 48px;
     }
