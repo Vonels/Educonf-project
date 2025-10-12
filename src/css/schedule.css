@@ -39,9 +39,11 @@
     padding: 32px 0px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 8px;
   }
   .schedule-time {
+    display: block;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
@@ -49,7 +51,7 @@
     color: var(--color-scheme-1-text);
   }
   .schedule-hero {
-    padding: 64px 0;
+    padding: 92px 0;
   }
 
   .schedule-title {
@@ -69,6 +71,7 @@
 
   .schedule-dop {
     display: flex;
+    flex-direction: column;
   }
   .schedule-button {
     border: 1px solid var(--color-governor-bay);
@@ -109,21 +112,19 @@
     padding: 0px;
     gap: 16px;
   }
-  .schedule-mini {
-    display: flex;
-  }
   .schedule-list-punkt {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 32px;
   }
-  .sddsfdsf {
+  .schedule-mini {
     display: flex;
-    justify-content: end;
+    text-align: end;
+  }
+  .schedule-proba {
   }
 }
-
 @media only screen and (min-width: 1440px) {
   .schedule-list-punkt {
     display: flex;
