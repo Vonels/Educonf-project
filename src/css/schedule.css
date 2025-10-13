@@ -74,6 +74,7 @@
     flex-direction: column;
   }
   .schedule-button {
+    display: block;
     border: 1px solid var(--color-governor-bay);
     border-radius: 6px;
     padding: 10px 24px;
@@ -83,6 +84,7 @@
     margin: 0 auto;
     color: var(--color-white);
     margin-top: 40px;
+    text-align: center;
   }
   .schedule-mini {
     display: none;
@@ -92,6 +94,7 @@
     gap: 16px;
   }
   .schedule-block {
+    display: block;
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 14px;
@@ -100,7 +103,7 @@
     border: 2px solid var(--color-neutral-darkest);
     border-radius: 4px;
     padding: 4px 10px;
-    width: 87px;
+    text-align: center;
   }
 }
 @media only screen and (min-width: 768px) {
