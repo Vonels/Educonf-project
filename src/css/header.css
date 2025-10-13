@@ -55,6 +55,7 @@
     line-height: 150%;
     color: var(--color-white);
     margin: 16px auto;
+    text-align: center;
   }
 
   .button-close {
