@@ -16,5 +16,84 @@
             </p>
             <button class="register-modal-button">Clos</button>
         </div>
+  <div class="register-modal">
+    <button class="register-modal__close-button">
+      <svg class="register-modal-icon" width="24" height="24">
+        <use href="./img/sprite.svg#close"></use>
+      </svg>
+    </button>
+    <div class="register-modal-title-div">
+      <picture>
+        <source
+          srcset="
+            ./img/imagesgroup/smilegirl.jpg    1x,
+            ./img/imagesgroup/smilegirl@2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+          width="640"
+          height="324"
+        />
+        <source
+          srcset="
+            ./img/imagesgroup/smilegirl.jpg    1x,
+            ./img/imagesgroup/smilegirl@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+          width="576"
+          height="324"
+        />
+        <img
+          srcset="
+            ./img/imagesgroup/smilegirlmobile.jpg    1x,
+            ./img/imagesgroup/smilegirlmobile@2x.jpg 2x
+          "
+          src="./img/imagesgroup/smilegirlmobile.jpg"
+          alt=""
+          class="register-modal-img"
+        />
+      </picture>
+      <h2 class="register-modal-title">Success! You're registered.</h2>
+      <p class="register-modal-paragraph">
+        We've sent a confirmation to your email address. Please check your inbox
+        (and your spam folder) to find your ticket and further instructions.
+        <span class="register-modal-span">See you at the conference!</span>
+      </p>
+      <button class="register-modal-button">Close</button>
     </div>
+  </div>
+</div>
+<div class="menu-drive">
+  <div class="menu-drive-mobile container">
+    <a class="header-logo">
+      <svg class="header-svg" width="164" height="71">
+        <use href="./img/sprite.svg#Logo" />
+      </svg>
+    </a>
+    <button type="button" class="button-close">
+      <svg class="svg-burger" width="24" height="24">
+        <use href="./img/sprite.svg#close"></use>
+      </svg>
+    </button>
+    <ul class="header-burger">
+      <li class="header-burger-list">
+        <a class="header-user-nav">Home</a>
+      </li>
+      <li class="header-burger-list">
+        <a class="header-user-nav" href="#about">About Us</a>
+      </li>
+      <li class="header-burger-list">
+        <a class="header-user-nav" href="#speakers">Speakers</a>
+      </li>
+      <li class="header-burger-list">
+        <a class="header-user-nav" href="#schedule">Schedule</a>
+      </li>
+      <li class="header-burger-list">
+        <a class="header-user-nav" href="#gallery">Gallery</a>
+      </li>
+      <li class="header-burger-list">
+        <a class="header-user-nav" href="#testimonials">Testimonials</a>
+      </li>
+    </ul>
+    <a class="header-button-burger" href="#register">Register Now</a>
+  </div>
 </div>
