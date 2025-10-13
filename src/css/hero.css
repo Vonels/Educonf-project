@@ -94,30 +94,30 @@
     letter-spacing: -0.01em;
   }
 
-
-.hero-text {
   .hero-text {
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 1.5;
-    margin-bottom: 40px;
-    padding-right: 50px;
-  }
+    .hero-text {
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 1.5;
+      margin-bottom: 40px;
+      padding-right: 50px;
+    }
 
-  .style-button {
-    display: flex;
-  }
+    .style-button {
+      display: flex;
+    }
 
-  .hero-button {
-    margin-top: 5px;
-    min-width: 193px;
-    min-height: 44px;
-  }
+    .hero-button {
+      margin-top: 5px;
+      min-width: 193px;
+      min-height: 44px;
+    }
 
-  .hero-image {
-    width: 1312px;
-    height: 738px;
-  }
+    .hero-image {
+      width: 1312px;
+      height: 738px;
+    }
 
-  /* =======================/HERO====================== */
+    /* =======================/HERO====================== */
+  }
 }
