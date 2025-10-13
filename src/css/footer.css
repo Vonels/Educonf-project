@@ -1,11 +1,6 @@
 @media screen {
   .container-foot {
     display: flex;
-    /* min-width: 375px; */
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
     flex-direction: column;
     align-items: center;
   }
@@ -17,8 +12,7 @@
   }
 
   .footer-class {
-    padding: 48px 20px;
-
+    padding: 48px 0;
     background-color: #03030a;
   }
 
@@ -52,7 +46,7 @@
   }
 
   .commit-box {
-    width: 320px;
+    max-width: 375px;
     border-top: 2px solid;
     color: white;
     display: flex;
@@ -75,12 +69,14 @@
     color: #3444c5;
     text-decoration: underline;
   }
+
+  .footer-link:disabled {
+    color: #03030a;
+    opacity: 0.3;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
   .footer-list {
     display: flex;
     align-items: center;
@@ -89,23 +85,26 @@
   }
 
   .commit-box {
-    width: 768px;
+    min-width: 100%;
+  }
+
+  .footer-p {
+    font-size: 13px;
   }
 
   .footer-class {
-    padding: 48px 32px;
+    padding: 48px 0;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    min-width: 1440px;
+  .footer-p {
+    font-size: 14px;
   }
-
   .commit-box {
-    min-width: 1440px;
+    width: 1440px;
   }
   .footer-class {
-    padding: 80px 64px;
+    padding: 80px 0;
   }
 }
