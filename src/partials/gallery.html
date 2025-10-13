@@ -1,53 +1,76 @@
-<section class="gallery">
+<section class="gallery" id="gallery">
   <div class="container">
     <div class="gallery-title">
       <h2 class="gallery-heading">Highlights from previous conferences</h2>
       <p class="gallery-text">Feel the energy from previous events</p>
     </div>
     <div class="gallery-content">
-      <img
-        class="gallery-img"
-        srcset="../img/sectiongroup/manspeak@2x.jpg 2x"
-        src="../img/sectiongroup/manspeak.jpg"
-        alt="speaker"
-        width="335"
-        height="335"
-      />
+      <picture>
+        <!-- Desktop -->
+        <source
+          srcset="
+            ./img/sectiongroup/manspeak.jpg    1x,
+            ./img/sectiongroup/manspeak@2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+          width="640"
+          height="640"
+        />
+        <!-- Tablet -->
+        <source
+          srcset="
+            ./img/sectiongroup/manspeak.jpg    1x,
+            ./img/sectiongroup/manspeak@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+          width="340"
+          height="340"
+        />
+        <!-- Mobile -->
+        <img
+          class="gallery-img"
+          srcset="./img/sectiongroup/manspeak@2x.jpg 2x"
+          src="./img/sectiongroup/manspeak.jpg"
+          alt="speaker"
+          width="335"
+          height="335"
+        />
+      </picture>
       <ul class="gallery-box">
         <li class="gallery-item">
           <img
-            srcset="../img/sectiongroup/peoplework@2x.jpg 2x"
-            src="../img/sectiongroup/peoplework.jpg"
+            srcset="./img/sectiongroup/peoplework@2x.jpg 2x"
+            src="./img/sectiongroup/peoplework.jpg"
             alt="group of people"
-            width="159"
-            height="159"
+            width="304"
+            height="304"
           />
         </li>
         <li class="gallery-item">
           <img
-            srcset="../img/sectiongroup/manman@2x.jpg 2x"
-            src="../img/sectiongroup/manman.jpg"
+            srcset="./img/sectiongroup/manman@2x.jpg 2x"
+            src="./img/sectiongroup/manman.jpg"
             alt="group of people"
-            width="159"
-            height="159"
+            width="304"
+            height="304"
           />
         </li>
         <li class="gallery-item">
           <img
-            srcset="../img/sectiongroup/laptop@2x.jpg 2x"
-            src="../img/sectiongroup/laptop.jpg"
+            srcset="./img/sectiongroup/laptop@2x.jpg 2x"
+            src="./img/sectiongroup/laptop.jpg"
             alt="group of people"
-            width="159"
-            height="159"
+            width="304"
+            height="304"
           />
         </li>
         <li class="gallery-item">
           <img
-            srcset="../img/sectiongroup/graygreen@2x.jpg 2x"
-            src="../img/sectiongroup/graygreen.jpg"
+            srcset="./img/sectiongroup/graygreen@2x.jpg 2x"
+            src="./img/sectiongroup/graygreen.jpg"
             alt="group of people"
-            width="159"
-            height="159"
+            width="304"
+            height="304"
           />
         </li>
       </ul>
