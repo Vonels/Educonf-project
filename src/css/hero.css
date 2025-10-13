@@ -1,99 +1,136 @@
 @media screen {
-  /* ========================HERO====================== */
 
-  .hero {
-    padding: 64px 0;
-  }
+    /* ========================HERO====================== */
 
-  .hero-title {
-    font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 1.2;
-    letter-spacing: -0.01em;
-    margin-bottom: 24px;
-  }
+    .hero {
+        padding: 64px 0;
+    }
 
-  .hero-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 32px;
-  }
+    .hero-title {
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.2;
+        letter-spacing: -0.01em;
+        margin-bottom: 24px;
+    }
 
-  .hero-button {
-    border: 1px solid #3444c5;
-    background-color: #3444c5;
-    border-radius: 6px;
-    padding: 10px 24px;
-    width: 100%;
-    margin: 0 auto;
-    font-weight: 500;
-    font-size: 16px;
-    color: #fff;
-    margin-bottom: 40px;
-  }
+    .hero-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 32px;
+    }
 
-  .hero-button:hover,
-  .hero-button:focus {
-    border: 1px solid #3444c5;
-    background-color: transparent;
-    color: var(--color-scheme-1-text);
-  }
+    .hero-button {
+        border: 1px solid #3444c5;
+        background-color: #3444c5;
+        border-radius: 6px;
+        padding: 10px 24px;
+        width: 100%;
+        font-weight: 500;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 40px;
+        display: block;
+        text-align: center;
+    }
 
-  .hero-button:active {
-    border: 1px solid #3444c5;
-    background-color: var(--color-governor-bay-lighter);
-    color: var(--color-scheme-1-text);
-  }
+    .hero-button:hover,
+    .hero-button:focus {
+        border: 1px solid #3444c5;
+        background-color: transparent;
+        color: var(--color-scheme-1-text);
+    }
 
-  .hero-button:disabled {
-    border: 1px solid transparent;
-    background-color: var(--color-governor-bay);
-    color: var(--color-white);
-  }
+    .hero-button:active {
+        border: 1px solid #3444c5;
+        background-color: var(--color-governor-bay-lighter);
+        color: var(--color-scheme-1-text);
+    }
+
+    .hero-button:disabled {
+        border: 1px solid transparent;
+        background-color: var(--color-governor-bay);
+        color: var(--color-white);
+        opacity: 0.3;
+    }
+
 }
 
 /* =======================/HERO====================== */
 
+
 @media screen and (min-width: 768px) {
-  /* ========================HERO====================== */
+    
 
-  .hero {
+    /* ========================HERO====================== */
+
+.hero {
     padding: 64px 0;
-  }
+}
 
-  .hero-text {
+.hero-text {
     font-size: 19px;
-  }
+}
 
-  .hero-button {
+.hero-button {
     width: 193px;
     height: 44px;
-    display: inline;
-  }
+}
 
-  .hero-image {
+.hero-image {
     width: 704px;
     height: 396px;
-  }
+}
 
-  /* =======================/HERO====================== */
+
+
+
+    /* =======================/HERO====================== */
 }
 
 @media screen and (min-width: 1440px) {
-  /* ========================HERO====================== */
-  .hero {
-    padding: 92px 0;
-  }
+    
 
-  .hero-title {
+    /* ========================HERO====================== */
+.hero {
+    padding: 92px 0;
+}
+
+
+.hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.2;
+    line-height: 1.2 ;
     letter-spacing: -0.01em;
-  }
 
+}
+
+
+.hero-text {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    padding-right: 50px;
+}
+
+.style-button {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.hero-button {
+    margin-top: 5px;
+    min-width: 193px;
+    min-height: 44px;
+}
+
+.hero-image {
+    width: 1312px;
+    height: 738px;
   .hero-text {
     .hero-text {
       font-weight: 400;
@@ -120,4 +157,7 @@
 
     /* =======================/HERO====================== */
   }
+}
+
+    /* =======================/HERO====================== */
 }
