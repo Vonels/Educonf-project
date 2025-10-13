@@ -126,6 +126,13 @@
   background: var(--color-governor-bay);
 }
 
+.register-modal-button:hover,
+.register-modal-button:focus {
+  border: 1px solid var(--color-governor-bay);
+  color: var(--color-scheme-1-text);
+  background-color: #fff;
+}
+
 @media screen and (min-width: 768px) {
   .register-modal-button {
     display: block;
