@@ -6,11 +6,13 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.25);
   opacity: 0;
+  pointer-events: none;
   transition: transform 1s linear;
 }
 
 .register-modal-background.is-open {
   opacity: 1;
+  pointer-events: auto;
 }
 
 .register-modal {
