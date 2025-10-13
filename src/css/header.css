@@ -97,6 +97,12 @@
     width: 256px;
     height: 44px;
   }
+  .header-button-burger:hover,
+  .header-button-burger:focus {
+    border: 1px solid var(--color-governor-bay);
+    background: transparent;
+    color: var(--color-scheme-1-text);
+  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -131,6 +137,16 @@
     font-size: 16px;
     line-height: 150%;
     color: var(--color-white);
+  }
+  .header-button:hover,
+  .header-button:focus {
+    border: 1px solid var(--color-governor-bay);
+    background: transparent;
+    color: var(--color-scheme-1-text);
+  }
+  .header-button:active {
+    background: var(--color-governor-bay-lighter);
+    text-decoration: none;
   }
   .menu-drive {
     display: none;
