@@ -1,0 +1,45 @@
+@media screen {
+  .schedule-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .schedule-fonts-hero {
+    text-align: center;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+  }
+  .schedule-fonts-paragraf {
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+  }
+  .schedule-block-hero {
+    margin-bottom: 80px;
+  }
+  .schedule-list-punkt {
+    border-top: 2px solid var(--color-scheme-1-border);
+    padding: 32px 0px;
+  }
+  .schedule-time {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--color-scheme-1-text);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1440px) {
+}

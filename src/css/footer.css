@@ -1,12 +1,6 @@
-
 @media screen {
-  .container {
+  .container-foot {
     display: flex;
-    max-width: 375px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
     flex-direction: column;
     align-items: center;
   }
@@ -19,8 +13,6 @@
 
   .footer-class {
     padding: 48px 20px;
-    /* min-width: 375px;
-    min-height: 633px; */
     background-color: #03030a;
   }
 
@@ -39,7 +31,7 @@
   .footer-p {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 150%;
     color: white;
     padding: 32px 5px;
@@ -50,13 +42,64 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
+    margin-bottom: 80px;
   }
 
   .commit-box {
+    width: 320px;
     border-top: 2px solid;
     color: white;
     display: flex;
     justify-content: center;
   }
+
+  .foter-link:hover {
+    text-decoration: underline;
+  }
+
+  .footer-link:focus {
+    text-decoration: underline;
+  }
+
+  a:active {
+    color: #3444c5;
+    text-decoration: underline;
+  }
+  .footer-link:active {
+    color: #3444c5;
+    text-decoration: underline;
+  }
 }
 
+@media screen and (min-width: 768px) {
+  .footer-list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .commit-box {
+    width: 768px;
+  }
+
+  .footer-p {
+    font-size: 14px;
+  }
+
+  .footer-class {
+    padding: 48px 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-p {
+    font-size: 14px;
+  }
+  .commit-box {
+    min-width: 1440px;
+  }
+  .footer-class {
+    padding: 80px 64px;
+  }
+}
