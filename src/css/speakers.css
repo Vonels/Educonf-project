@@ -1,7 +1,7 @@
 /* Styles for Mobile devices */
 @media only screen and (min-width: 375px) {
     .speakers-section {
-        padding-top: 104px;
+        padding-top: 64px;
         padding-bottom: 64px;
     }
 
@@ -86,7 +86,7 @@
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1200px) {
     .speakers-section {
-        padding-top: 132px;
+        padding-top: 92px;
         padding-bottom: 92px;
     }
 
