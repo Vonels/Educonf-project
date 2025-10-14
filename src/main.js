@@ -1,33 +1,51 @@
-const modalBtnEl = document.querySelector('.register-form__button');
-const backdropEl = document.querySelector('.register-modal-background');
-const closeBtnSvg = document.querySelector('.register-modal__close-button');
-const closeBtnEl = document.querySelector('.register-modal-button');
 const bodyEl = document.body;
+
+const backdropEl = document.querySelector('.register-modal-background');
+const modalCloseBtns = document.querySelectorAll(
+  '.register-modal__close-button, .register-modal-button'
+);
+
+const formEl = document.querySelector('.register-form__form');
+const formSubmitBtn = document.querySelector('.register-form__button');
+
 const burgerEl = document.querySelector('.header-button-menu');
 const burgerbackEl = document.querySelector('.menu-drive');
-const closeBurSvg = document.querySelector('.button-close');
+const burgerCloseEl = document.querySelector('.button-close');
 
-closeBurSvg.addEventListener('click', toggleBurg);
-burgerEl.addEventListener('click', toggleBurg);
-modalBtnEl.addEventListener('click', toggleModal);
-closeBtnSvg.addEventListener('click', toggleModal);
-closeBtnEl.addEventListener('click', toggleModal);
+function toggleModal(open = null) {
+  const isOpen =
+    open !== null ? open : !backdropEl.classList.contains('is-open');
 
-function toggleModal() {
-  backdropEl.classList.toggle('is-open');
-
-  if (backdropEl.classList.contains('is-open')) {
-    bodyEl.style.overflow = 'hidden';
-  } else {
-    bodyEl.style.overflow = 'visible';
-  }
+  backdropEl.classList.toggle('is-open', isOpen);
+  bodyEl.style.overflow = isOpen ? 'hidden' : 'visible';
 }
-function toggleBurg() {
-  burgerbackEl.classList.toggle('is-open');
 
-  if (burgerbackEl.classList.contains('is-open')) {
-    bodyEl.style.overflow = 'hidden';
-  } else {
-    bodyEl.style.overflow = 'visible';
-  }
+function toggleBurg(open = null) {
+  const isOpen =
+    open !== null ? open : !burgerbackEl.classList.contains('is-open');
+
+  burgerbackEl.classList.toggle('is-open', isOpen);
+  bodyEl.style.overflow = isOpen ? 'hidden' : 'visible';
+}
+
+if (formEl && backdropEl) {
+  formEl.addEventListener('submit', e => {
+    e.preventDefault();
+
+    if (formEl.checkValidity()) {
+      toggleModal(true);
+      formEl.reset();
+    } else {
+      formEl.reportValidity();
+    }
+  });
+}
+
+modalCloseBtns.forEach(btn =>
+  btn.addEventListener('click', () => toggleModal(false))
+);
+
+if (burgerEl && burgerCloseEl) {
+  burgerEl.addEventListener('click', () => toggleBurg(true));
+  burgerCloseEl.addEventListener('click', () => toggleBurg(false));
 }
