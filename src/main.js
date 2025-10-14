@@ -49,3 +49,9 @@ if (burgerEl && burgerCloseEl) {
   burgerEl.addEventListener('click', () => toggleBurg(true));
   burgerCloseEl.addEventListener('click', () => toggleBurg(false));
 }
+
+const burgerLinks = document.querySelectorAll('.menu-drive a');
+
+burgerLinks.forEach(link => {
+  link.addEventListener('click', () => toggleBurg(false));
+});
