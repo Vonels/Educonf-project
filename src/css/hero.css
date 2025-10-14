@@ -47,6 +47,7 @@
         border: 1px solid #3444c5;
         background-color: var(--color-governor-bay-lighter);
         color: var(--color-scheme-1-text);
+        text-decoration: none;
     }
 
     .hero-button:disabled {
