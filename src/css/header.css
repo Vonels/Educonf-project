@@ -152,4 +152,8 @@
   .menu-drive {
     display: none;
   }
+  .header-user-nav:hover,
+  .header-user-nav:focus {
+    text-decoration: underline;
+  }
 }
