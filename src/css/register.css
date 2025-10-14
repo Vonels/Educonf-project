@@ -131,6 +131,12 @@
   background-color: #fff;
 }
 
+.register-form__button:active {
+  border: 1px solid var(--color-governor-bay);
+  color: var(--color-scheme-1-text);
+  background-color: var(--color-governor-bay-lighter);
+}
+
 @media screen and (min-width: 768px) {
   .register-form__button {
     min-width: 192px;
