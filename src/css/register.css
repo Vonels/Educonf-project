@@ -92,6 +92,11 @@
   outline: none;
 }
 
+.register-form__input:hover,
+.register-form__input:focus {
+  border: 2px solid var(--color-scheme-1-accent);
+}
+
 @media screen and (min-width: 768px) {
   .register-form__input {
     width: 335px;
