@@ -168,4 +168,7 @@
     max-width: 519px;
     margin: 0 auto;
   }
+  .schedule-title {
+    margin-bottom: 0;
+  }
 }
