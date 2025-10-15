@@ -101,6 +101,7 @@
     display: flex;
     gap: 16px;
   }
+
   .schedule-block {
     display: block;
     font-family: var(--font-family);
