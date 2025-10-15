@@ -66,6 +66,11 @@
         fill: #1c1c22;
     }
 
+    .speakers-social-media-link:hover,
+    .speakers-social-media-link:focus {
+        fill: var(--color-scheme-1-accent);
+    }
+
     .speakers-text {
         height: 144px;
     }
