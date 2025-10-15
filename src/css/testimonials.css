@@ -27,7 +27,11 @@
   }
 
   .testimonials-text {
+    font-family: var(--font-family);
     margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
   }
 
   .testimonials-review-item-text {
@@ -73,6 +77,10 @@
     gap: 32px;
   }
 
+  .testimonials-text {
+    max-width: 520px;
+  }
+
   .testimonials-review-item {
     width: calc((100% - 64px) / 3);
   }
@@ -91,9 +99,5 @@
 
   .testimonials-title {
     font-size: 48px;
-  }
-
-  .testimonials-text {
-    max-width: 520px;
   }
 }
